@@ -565,9 +565,9 @@ table td{
 	text-align: center;
 	_float:left;
 	font-size:16px;/*メニューバーのフォントサイズ*/
-	width:192px;/*ボックスの幅*/
-	height:26px;/*ボックスの高さ*/
-	padding:15px 0;
+	width:192px;/*ボックスの横幅*/
+	height:26px;/*ボックス内の文字の高さ*/
+	padding:15px 0;/*ボックスの縦幅*/
 	border-top:2px solid #ebebeb;
 	border-bottom:2px solid #ebebeb;
 	}
@@ -579,13 +579,13 @@ table td{
 	font-size:10px;
 	}
 	
-	#mainNav ul ul{width:160px;background:#fff;}
+	#mainNav ul ul{width:190px;background:#fff;}/*サブメニューボックスの横幅*/
 	#mainNav li ul{display:none;}
 
 	#mainNav li:hover ul{
 	display:block;
 	position:absolute;
-	top:64px;
+	top:52px;/*サブメニューボックスが表示される高さ*/
 	z-index:500;
 	}
 	
