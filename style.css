@@ -804,3 +804,11 @@ table td{
 	.box img{max-width:100px;}
 	#mainBanner h2,#mainBanner p{font-size:80%;}
 }
+
+.index-banner .slogan {
+
+    top: 20px;
+
+    bottom: auto;
+
+}
